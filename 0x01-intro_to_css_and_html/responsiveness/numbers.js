@@ -6,3 +6,4 @@ isaacFavorite= isaacFavorite - 2;
 isaacFavorite= 26 * 11;
 isaacFavorite= isaacFavorite / 3;
 console.log(isaacFavorite)
+
