@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 375px){
+    .section_one{
+        background-color: #039352;
+        padding-top: 20px;
+        position: relative;
+        /* width: 375px; */
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .container{
+        padding:  0 6%;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 93px;
+    }
+    .logo{
+        width: 83px;
+        height: 30px;
+    }
+    .nav{
+        display: none;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        color: #FFF;
+        text-align: center;
+    }
+    .header h3{
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 100.1%;
+        letter-spacing: -2.7px;
+    }
+    .header p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+    .header img{
+        height: 72px;
+        width: 276px;
+        float: initial;
+    }
+    .play_store{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+    .play_store a img{
+        width: 242px;
+        height: 75.392px;
+    }
+    .phone1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 320px;
+        height: 300px;
+    }
+    .section-two{
+        position: relative;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-two img{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .para1 h5{
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+        color:#007640;
+        padding:56px 32px 24px 34px;
+    }
+    .para1 p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 0 32px 56px 34px;
+    }
+    .para1{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 0px 6%;
+    }
+    .connect-text{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .passport{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 64px;
+        padding: 56px 0;
+    }
+    .passport img{
+        width: 246px;
+        height: 279px;
+        text-align: center;
+    }
+    .passport h2{
+        padding: 64.23px 32px 24px 32px;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+    .passport p{
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 0 32px 56px 32px;
+    }
+    .green-space{
+        background-color: #007640;
+        padding: 130px 6% 152px 6%;
+        display: flex;
+        flex-direction: column;
+        gap: 51px;
+    } 
+    .fans-btns{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: ; */
+    }
+    .fans-btns img{
+        border-radius: 50%;
+        padding: 12px;
+    }
+    .btn{
+        background: #FFBB62;
+        width: 84px;
+        height: 27px;
+        border-radius: 50px;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.03em;
+    }
+    .fans-text{
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .fans-text h4{
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+    }
+    .fans-text p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    
+    .influence{
+        padding: 72px 6% 6%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 51px;
+        height: 617px;
+    }
+    .influencer-text{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .influencer-text h4{
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+    }
+    .influencer-text p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+    }
+    .influencer img{
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .filter{
+        background: #121212;
+        padding: 130px 6% 152px 6%;
+        display: flex;
+        flex-direction: column;
+        gap: 51px;
+        position: absolute;
+    }
+    .assurance{
+        padding: 55px 6%;
+    }
+    .assurance h4{
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+        color: #007640;
+
+    }
+    .support{
+        padding: 72px 0 40px;
+    }
+    .ease{
+        display: flex;
+        /* flex-direction: column; */
+        /* position: relative; */
+    }
+    .line{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ease span{
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        border: 1px #000 solid;
+        background-color: #bebdbd;
+        padding: 5px;
+        display: block;
+        /* position: absolute; */
+    }
+    .ease hr{
+        width: 2px;
+        height: 125px;
+        border: 1px #bebdbd solid;
+    }
+    .support .text h5{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.03em;
+    }
+    .support .text p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .ease{
+        display: flex;
+        gap: 32px;
+    }
+    .ease .text{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .getphone{
+        position: relative;
+        height: 1000px;
+    }
+    .gamephone{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 305px;
+        height: 600px;
+    }
+
+    .game{
+        position: absolute;
+        bottom: 0;
+        height: 551px;
+        background-color: #007640;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        justify-content: center;
+        align-items: center;
+    }
+    .game .text{
+        padding: 0 24px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .game .text h2{
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 49px;
+        letter-spacing: -0.03em;
+    }
+    .game .text p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .inputside{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .inputside p{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+
+    }
+    .inputside b{
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .inputgroup{
+        display: flex;
+        width: 335px;
+    }
+    input{
+        height: 56px;
+        width: 70%;
+        border: 1px solid #bebdbd;
+        padding: 20px;
+        border-radius: 10px 0 0 10px;
+    }
+    .inputgroup button{
+        width: 30%;
+        border-radius: 0 10px 10px 0;
+        background-color: #000;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0.075em;
+        border: none;
+        text-transform: uppercase;
+
+    }
+
+    .footer-logo{
+        
+
